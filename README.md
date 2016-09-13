@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application with the following two scaffolds:
+Post
+Comment
 
-Things you may want to cover:
+The Post scaffold has two attributes:
+title - string
+body - text
 
-* Ruby version
+The Comment scaffold has two attributes:
+post - references
+body - text
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Versions:
+Ruby 2.3.1
+Rails 5.0.0.1
