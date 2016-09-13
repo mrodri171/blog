@@ -5,11 +5,11 @@ Post
 Comment
 
 The Post scaffold has two attributes:
-title - string
+title - string and 
 body - text
 
 The Comment scaffold has two attributes:
-post - references
+post - references and
 body - text
 
 Versions:
