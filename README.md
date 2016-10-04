@@ -15,8 +15,11 @@ post - references and
 body - text
 
 Post "has many" Comments
+
 Destroy dependency added to the has many comments relationship in the Post model.
+
 Created a nested resource for comments within posts in the routes.rb file
+
 Validates presence of title and body for Posts and Comments.
 
 Versions:
