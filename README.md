@@ -1,6 +1,6 @@
 # README
 
-Blog Assignments #1 and #2
+Blog Assignments #1 #2 and #3
 
 This is a Ruby on Rails application with the following two scaffolds:
 Post
@@ -21,6 +21,10 @@ Destroy dependency added to the has many comments relationship in the Post model
 Created a nested resource for comments within posts in the routes.rb file
 
 Validates presence of title and body for Posts and Comments.
+
+Adds the new comment form underneath post page
+
+Makes the form remote
 
 Versions:
 Ruby 2.3.1
