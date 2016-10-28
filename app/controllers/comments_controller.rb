@@ -30,10 +30,10 @@ class CommentsController < ApplicationController
 
     respond_to do |format|
       if @comment.save
-        format.js{ render :nothing => true }
         #binding.pry
-        #format.html { redirect_to post_path(@post.id), notice: 'Comment was successfully created.' }
-        #format.json { render :show, status: :created, location: @comment }
+        format.html { redirect_to post_path(@post.id), notice: 'Comment was successfully created.' }
+        format.json { render :show, status: :created, location: @comment }
+        format.js
       else
         format.html { render :new }
         format.json { render json: @comment.errors, status: :unprocessable_entity }

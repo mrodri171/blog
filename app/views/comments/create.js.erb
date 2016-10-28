@@ -1,5 +1,3 @@
-
-alert('alert me when i get there');
 var new_comment = $("<%= j(render(@comment))%>").hide();
 $('#comments').prepend(new_comment);
 $('#comment_<%= @comment.id %>').fadeIn('slow');
